@@ -14,7 +14,6 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "10.0"
   spec.source       = { :git => 'https://github.com/ComPDFKit/compdfkit-ios.git', :tag => "1.12.0"}
 
-  spec.source_files = "ComPDFKit_Tools.xcframework/**/*", "ComPDFKit.xcframework/**/*"
   spec.vendored_frameworks = "ComPDFKit_Tools.xcframework", "ComPDFKit.xcframework"
 
   spec.requires_arc = true
