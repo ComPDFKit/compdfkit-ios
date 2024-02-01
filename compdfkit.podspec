@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "compdfkit"
+  spec.name         = "ComPDFKit"
   spec.version      = "1.12.0"
   spec.summary      = "The folder of ComPDFKit_Tools includes the UI components to help conveniently integrate ComPDFKit PDF SDK."
   spec.description  = <<-DESC
@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "10.0"
   spec.source       = { :git => 'https://github.com/ComPDFKit/compdfkit-ios.git', :tag => "1.12.0"}
 
-  spec.preserve_paths = "ComPDFKit_Tools.xcframework", "ComPDFKit.xcframework"
+  spec.source_files = "ComPDFKit_Tools.xcframework/**/*", "ComPDFKit.xcframework/**/*"
   spec.vendored_frameworks = "ComPDFKit_Tools.xcframework", "ComPDFKit.xcframework"
 
   spec.requires_arc = true
