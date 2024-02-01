@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "ComPDFKit"
+  spec.name         = "compdfkit"
   spec.version      = "1.12.0"
   spec.summary      = "The folder of ComPDFKit_Tools includes the UI components to help conveniently integrate ComPDFKit PDF SDK."
   spec.description  = <<-DESC
