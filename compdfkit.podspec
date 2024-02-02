@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "ComPDFKit"
-  spec.version      = "1.12.0"
+  spec.version      = "1.13.0"
   spec.summary      = "The folder of ComPDFKit_Tools includes the UI components to help conveniently integrate ComPDFKit PDF SDK."
   spec.description  = <<-DESC
   ComPDFKit_Tools have also built five standalone function programs, namely Viewer, Annotations, ContentEditor, Forms, and DocsEditor, using this UI component library. Additionally, we have developed a program called **PDFViewer** that integrates all the above-mentioned example features for reference
@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => 'Commercial', :file => 'https://github.com/ComPDFKit/PDF-SDK-iOS/blob/main/LICENSE'} 
   spec.author       = { "ComPDFKit" => "support@compdf.com"}
   spec.platform     = :ios, "10.0"
-  spec.source       = { :git => 'https://github.com/ComPDFKit/compdfkit-ios.git', :tag => "1.12.0"}
+  spec.source       = { :git => 'https://github.com/ComPDFKit/compdfkit-ios.git', :tag => "1.13.0"}
 
   spec.vendored_frameworks = "ComPDFKit_Tools.xcframework", "ComPDFKit.xcframework"
 
